@@ -5,3 +5,4 @@ console.log('yeahhh!')
 console.log("hello this project should be finished faster ")
 console.log("start game when the page loads");
 console.log("how o put javascript badge on github when making projects");
+console.log("hlast commit before going in vacation and then come back stronger");
