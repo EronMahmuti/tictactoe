@@ -1,3 +1,8 @@
 *{
     background: #fff;
 }
+
+.container{
+    color: darkcyan;
+    background: rgba(red, rgb(21, 141, 21), blue, alpha);
+}
