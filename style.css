@@ -44,9 +44,14 @@ body{
     content: '';
     width: calc(var(--mark-size) * .15);
     height: var(--mark-size);
-    background-color: black;
+    background-color: rgb(121, 96, 96);
 }
-
+.my-showboard{
+    color: blue;
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
 .cell.x::before{
     transform: rotate(45deg);
 }
