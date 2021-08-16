@@ -9,30 +9,36 @@ body{
     margin:0;
 }
 .board{
-    width:100wv;
-    height: 100vh;
+    width:var(--cell-size);
+    height: var(--cell-size);
     display: grid;
+    justify-content: center; 
+    align-content: center;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
     grid-template-columns: repeat(3,auto);
 }
 .cell{
-    width: var(--cell-size);
-    height: var(--cell-size);
+    width: 100px;
+    height: 100px;
     border: 1px solid #333;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-
+    cursor: pointer;
+    border: 1px solid #3333;
 }
+
 .cell:first-child,
 .cell:nth-child(2),
 .cell:nth-child(3){
     border-top: none;
 }
-.cell:nth-child(3n + 3){
+.cell:nth-child(3n + 1){
     border-left: none;
+}
+.cell:nth-child(3n + 3){
+    border-right: none;
 }
 .cell:last-child,
 .cell:nth-child(8),
